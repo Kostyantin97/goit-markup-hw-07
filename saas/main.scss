@@ -1,0 +1,23 @@
+/* Utils */
+ @import "./utils/variables";
+
+/* Base */
+@import "./base/base";
+@import "./base/reset";
+
+/* Components */
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/hero-section";
+@import "./components/advantages-section";
+@import "./components/responsibilities-section";
+@import "./components/team-section";
+@import "./components/clients-section";
+@import "./components/footer";
+@import "./components/join";
+@import "./components/subscribe-form";
+@import "./components/modal";
+@import "./components/form";
+
+/*Layout*/
+@import "./layout/container";
