@@ -1,23 +1,25 @@
 /* Utils */
- @import "./utils/variables";
+@import './utils/variables';
 
 /* Base */
-@import "./base/base";
-@import "./base/reset";
+@import './base/base';
+@import './base/reset';
+@import './base/container';
 
 /* Components */
-@import "./components/buttons";
-@import "./components/header";
-@import "./components/hero-section";
-@import "./components/advantages-section";
-@import "./components/responsibilities-section";
-@import "./components/team-section";
-@import "./components/clients-section";
-@import "./components/footer";
-@import "./components/join";
-@import "./components/subscribe-form";
-@import "./components/modal";
-@import "./components/form";
+@import './components/buttons';
+@import './components/subscribe-form';
+@import './components/modal';
+@import './components/overlay';
 
 /*Layout*/
-@import "./layout/container";
+@import './layout/form';
+@import './layout/header';
+@import './layout/hero-section';
+@import './layout/advantages-section';
+@import './layout/responsibilities-section';
+@import './layout/team-section';
+@import './layout/clients-section';
+@import './layout/join';
+@import './layout/portfolio-nav-section';
+@import './layout/footer';
