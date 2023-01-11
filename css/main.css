@@ -631,7 +631,7 @@ p {
   color: var(--logo-style-color);
 }
 
-.section-header {
+.section__header {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -657,17 +657,17 @@ p {
   display: flex;
 }
 
-.header-site-nav {
+.header__site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.site-nav .site-nav-item:not(:last-child) {
+.site-nav .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.current {
+.header__link--current {
   color: var(--accent-color);
   font-style: normal;
   font-weight: 500;
@@ -681,11 +681,11 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-item {
+.site-nav__item {
   position: relative;
 }
 
-.current::after {
+.header__link--current::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -696,14 +696,14 @@ p {
   border-radius: 2px;
 }
 
-.current:hover,
-.current:focus {
+.header__link--current:hover,
+.header__link--current:focus {
   color: var(--accent-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link {
+.header__link {
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
@@ -717,8 +717,8 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
+.header__link:hover,
+.header__link:focus {
   color: var(--accent-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1257,7 +1257,7 @@ p {
   margin-bottom: 0;
 }
 
-.section-page-footer {
+.section-page__footer {
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1287,12 +1287,12 @@ p {
   color: var(--accent-color-logo);
 }
 
-.footer-item {
+.adress__item {
   display: block;
   margin-bottom: 9px;
 }
 
-.link-adress-footer {
+.adress__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1304,8 +1304,8 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-adress-footer:hover,
-.link-adress-footer:focus {
+.adress__link:hover,
+.adress__link:focus {
   color: var(--accent-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
