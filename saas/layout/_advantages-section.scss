@@ -18,7 +18,7 @@
     margin-bottom: 25px;
 }
 
-.group {
+.advantage__group {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,14 +30,14 @@
 }
 
 
-.advantage-list {
+.list__advantage-list {
     display: flex;
     align-items: center;
     margin: 0;
     gap: 30px;
 }
 
-.title {
+.advantage__title {
     color:var(--title-text-color);
     font-style: normal;
 
@@ -49,7 +49,7 @@
     padding-bottom: 10px;
 }
 
-.name {
+.advantage__topic {
     color:var(--secondary-text-color);
     font-style: normal;
     font-weight: 400;
@@ -57,5 +57,4 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     padding-right: 30px;
-
 }

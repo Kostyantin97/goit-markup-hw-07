@@ -1,4 +1,4 @@
-.portfolio-thumb {
+.portfolio__thumb {
     position: absolute;
     display: block;
     top: 0;
@@ -12,7 +12,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .overlay-text {
+  .portfolio__text {
       font-style: normal;
       font-weight: 400;
       font-size: 18px;

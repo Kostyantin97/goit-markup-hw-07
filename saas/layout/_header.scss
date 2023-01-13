@@ -33,7 +33,6 @@
   border-bottom: 1px solid #ECECEC;
 }
 
-/* header-site-nav */
 
 .list {
     display: flex;
@@ -109,13 +108,13 @@
 
 /* section-contacts-nav */
 
-.section-contacts-nav {
+.contacts-nav__menu {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.section-contacts-nav {
+.contacts-nav__menu {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -125,7 +124,7 @@
 }
 
 
-.link-email {
+.contacts__link {
     color:var(--secondary-text-color);
     font-style: normal;
     font-weight: 500;
@@ -139,7 +138,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-email {
+.link-email__icon {
     fill: var(--secondary-text-color);
     width: 16px;
     height: 12px;
@@ -148,40 +147,18 @@
 
 }
 
-.link-email:hover {
+.contacts__link:hover {
     color: var(--accent-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-email:hover .icon-link-email,
-.link-email:focus .icon-link-email {
+.contacts__link:hover .link-email__icon,
+.contacts__link:focus .link-email__icon {
     fill: var(--accent-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.link-tel {
-    font-style: normal;
-    color:var(--secondary-text-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin-right: 40px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
-}
-
-.link-tel:hover {
-    color: var(--accent-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-link-tel {
+.link-tel__icon {
     fill: #757575;
     width: 10px;
     height: 16px;
@@ -190,8 +167,8 @@
 }
 
 
-.link-tel:hover .icon-link-tel,
-.link-tel:focus .icon-link-tel {
+.contacts__link:hover .link-tel__icon,
+.contacts__link:focus .link-tel__icon {
     fill: var(--accent-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
